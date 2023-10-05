@@ -87,7 +87,7 @@ let three = "width: 80%; background: #0288D1;border: none; border-radius: 20px;m
     let text = document.querySelectorAll("textarea");
     text.forEach(text => {
         text.onclick = function(){
-           window.scrollTo("1000", "1000"); document.querySelector(".in").innerHTML = "<input type='text' id='code'>";
+           window.scrollTo("200", "500"); document.querySelector(".in").innerHTML = "<input type='text' id='code'>";
            document.querySelector("#code").value = text.outerHTML; document.querySelector(".but").innerHTML = "<button id='cp'>Copy</button>";
            document.querySelector("#cp").onclick = function(){
                document.querySelector("input").select();
