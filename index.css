@@ -2,6 +2,7 @@
     box-sizing: border-box;
     borvder: 2px solid white;
     color: white;
+    font-family: 'Gabarito', cursive;
 }
 body {
     width: 100%;
@@ -76,7 +77,7 @@ margin: auto;
    flex-wrap: wrap;
     margin-top: 1cm;
     height: 90vh;
-    padding-bottom: 3cm;
+    
 }
 .bt button {
 background: #F57C00;
@@ -138,7 +139,7 @@ input::placeholder {
     height: 80vh;
   
 }
-.bt textarea {
- 
+.bt input:last-child{
+ margin-bottom: 1cm;
     
 }

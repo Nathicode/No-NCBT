@@ -14,7 +14,7 @@ let nine = "background: #F9FBE7;border: none;box-shadow: 0 0 5px black;width: 11
     document.querySelector(".title").innerHTML = "Buttons";
     let button = document.querySelector("button");
     //console.log()
-    alert(button.style)
+   
     //document.body.innerHTML = button.style;
 }
 button();
@@ -32,7 +32,7 @@ let code = document.querySelector("#code");
         code.value = btn.outerHTML;
        
         document.querySelector(".but").innerHTML = "<button id='cpy'>Copy</button>"
-        alert(btn.outerText)
+        //alert(btn.outerText)
         window.scrollTo("200", "500");
         let limit = 0;
         document.querySelector("#cpy").onclick = function(){
